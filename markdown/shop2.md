@@ -14,14 +14,14 @@ Javascript: var ej = new EJ_Shop({client_id:328984,offset:8,pinned:['pntbtr', '1
 	<div id="app_container"></div>
 </div>
 <div id="listing_template" hidden>
-	<div class="row" id="{identifier}" style="margin-bottom: 20px; {style}">
+	<div class="row" id="{identifier}" style="{style}">
 	 	<div class="one-full column">
     		{form}
     		<div style="float: left; max-width: 40%;"> 
     			<p><strong><a>{title}</a></strong><br/>{tagline}</p>
     			<img src="{thumbnail}" alt="{title}" title="{title}" style="max-width: 200px">
     		</div>
-    		<div style="float: right; max-width: 60%;"> 
+    		<div style="float: right; max-width: 60%;padding-top: 50px;padding-bottom: 50px;"> 
 				<quote>{description}</quote>
 				<p>{details}</p>
 				{options_template}
