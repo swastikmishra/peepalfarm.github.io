@@ -18,10 +18,10 @@ Javascript: var ej = new EJ_Shop({client_id:328984,offset:8,lazy_loading_eff:400
 	 	<div class="one-half column" style="width: 50%;margin-left: 0px;padding-right: 20px;">
     			<p><strong><a>{title}</a></strong><br/>{tagline}</p>
     			<img src="{thumbnail}" alt="{title}" title="{title}" style="max-width: 200px">
-			<p style="font-size: 13px;">{details}</p>
+<!-- 			<p style="font-size: 13px;">{details}</p> -->
     		</div>
     		<div class="one-half column" style="width: 50%;margin-left: 0px; padding-right: 20px; padding-top: 15px; padding-bottom: 20px;"> 
-			<quote style="font-size: 12px;">{description}</quote>
+<!-- 			<quote style="font-size: 12px;">{description}</quote> -->
 			{options_template}
     			<p>₹{price}</p>
     			<a href="{link}" style="text-decoration: none;background-color: #009900;padding: 10px;border-radius: 3px;color: #fff;margin-top: 15px;display: block;width: fit-content;" target="{link_target}" class="{link_class}" onclick="{onclick}">Add To Cart</a>
