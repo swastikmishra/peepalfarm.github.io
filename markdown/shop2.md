@@ -2,8 +2,11 @@
 Title: Contact us
 Scripts: 
 - https://www.e-junkie.com/e-junkie-shop-script.js
+
 Javascript: var ej = new EJ_Shop({client_id : 328984, pinned : ['pntbtr', '1556556', '1564515'] });
+
 -->
+
 <div class="container">
 	<input class="input" type="text" placeholder="Search Products" id="ej_search_handler">
 	<select id="ej_sort_handler">
