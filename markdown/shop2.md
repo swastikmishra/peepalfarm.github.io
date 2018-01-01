@@ -5,7 +5,7 @@ Scripts:
 Javascript: var ej = new EJ_Shop({client_id:328984, pinned:['pntbtr', '1556556', '1564515']});
 -->
 
-<div class="container" style="margin-top: 10vh">
+<div style="margin-top: 10vh">
 	<input class="input" type="text" placeholder="Search Products" id="ej_search_handler">
 	<select id="ej_sort_handler">
 		<option value="Latest">Latest</option>
