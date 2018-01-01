@@ -3,8 +3,6 @@ Title: Contact us
 Scripts: 
 - https://www.e-junkie.com/e-junkie-shop-script.js
 Javascript: var ej = new EJ_Shop({client_id:328984, pinned:['pntbtr', '1556556', '1564515']});
-Javascript: if(document.getElementById('ej_search_handler')){var el=document.getElementById("ej_search_handler"); el.addEventListener("keyup", ej.searchProducts, false);}
-Javascript: if(document.getElementById('ej_sort_handler')){var el = document.getElementById("ej_sort_handler"); el.addEventListener("change", ej.sortProducts, false);}
 -->
 
 <div style="margin-top: 10vh">
