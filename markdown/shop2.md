@@ -48,7 +48,6 @@ Javascript: var ej = new EJ_Shop({client_id:328984,offset:8,lazy_loading_eff:400
 </div>
 <div id="listing_template" hidden>
 	<div class="row" id="{identifier}" style="{style}">
-    		{form}
 	 		<div class="my_column">
     			<p><strong><a>{title}</a></strong><br/>{tagline}</p>
     			<img src="{thumbnail}" alt="{title}" title="{title}" style="max-width: 200px">
@@ -56,11 +55,13 @@ Javascript: var ej = new EJ_Shop({client_id:328984,offset:8,lazy_loading_eff:400
     		</div>
     		<div class="my_column"> 
 <!-- 			<quote style="font-size: 12px;">{description}</quote> -->
+			{form}
 			{options_template}
     			<p>₹{price}</p>
     			<a href="{link}" target="{link_target}" class="cart_btn {link_class}" onclick="{onclick}">Add To Cart</a>
+			{/form}
     		</div>    
-    		{/form}
+    		
 	</div>
 </div>
 <div id="dropdown_template" hidden>
