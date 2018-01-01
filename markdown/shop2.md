@@ -15,13 +15,12 @@ Javascript: var ej = new EJ_Shop({client_id:328984,offset:8,pinned:['pntbtr', '1
 </div>
 <div id="listing_template" hidden>
 	<div class="row" id="{identifier}" style="{style}">
-	 	<div class="one-full column">
     		{form}
-    		<div style="float: left; max-width: 40%;"> 
+	 	<div class="one-third column">
     			<p><strong><a>{title}</a></strong><br/>{tagline}</p>
     			<img src="{thumbnail}" alt="{title}" title="{title}" style="max-width: 200px">
     		</div>
-    		<div style="float: right; max-width: 60%;padding-top: 50px;padding-bottom: 50px;"> 
+    		<div class="two-third column" style="padding-top: 50px;padding-bottom: 50px;"> 
 				<quote>{description}</quote>
 				<p>{details}</p>
 				{options_template}
@@ -29,7 +28,6 @@ Javascript: var ej = new EJ_Shop({client_id:328984,offset:8,pinned:['pntbtr', '1
     			<a href="{link}" target="{link_target}" class="{link_class}" onclick="{onclick}">Add To Cart</a>
     		</div>    
     		{/form}
-  		</div>
 	</div>
 </div>
 <div id="dropdown_template" hidden>
