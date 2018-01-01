@@ -61,7 +61,6 @@ Javascript: var ej = new EJ_Shop({client_id:328984,offset:8,lazy_loading_eff:400
     			<a href="{link}" target="{link_target}" class="cart_btn {link_class}" onclick="{onclick}">Add To Cart</a>
 			{/form}
     		</div>    
-    		
 	</div>
 </div>
 <div id="dropdown_template" hidden>
