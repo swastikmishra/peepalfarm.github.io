@@ -1,5 +1,5 @@
 <!--
-Title: Contact us
+Title: Shop 2 Beta
 Scripts: 
 - https://www.e-junkie.com/e-junkie-shop-script.js
 Javascript: var ej = new EJ_Shop({client_id:328984,offset:8,pinned:['pntbtr', '1556556', '1564515']});
